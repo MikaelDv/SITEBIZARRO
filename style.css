@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+main {
+    text-align: center;
+    height: 180vh;
+}
+
+.video-img {
+    position: absolute;
+    transition: transform 0.3s ease;
+}
+
+main video:hover, 
+main img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-img {
+    max-width: 120px;
+}
+
+#imaginhas {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+#creditos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+#sniffa {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 300px;
+}
+
+#vip {
+    height: 20px;
+}
